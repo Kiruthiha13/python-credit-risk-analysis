@@ -2,8 +2,6 @@
 
 ## Project Overview
 
-This project was completed as part of the **JPMorgan Chase Quantitative Research Job Simulation** on Forage.
-
 This project focuses on credit risk analysis using borrower-level loan data. The objective is to develop techniques for estimating the **Probability of Default (PD)** and to transform numerical FICO scores into categorical credit ratings that can be used in machine learning models.
 
 The project consists of two tasks:
@@ -14,16 +12,6 @@ The project consists of two tasks:
 ## Task 1 – Probability of Default & Expected Loss
 
 ### Objective
-
-The risk manager provides historical borrower data containing information such as:
-
-- Credit lines outstanding
-- Loan amount outstanding
-- Total debt outstanding
-- Income
-- Years employed
-- FICO score
-- Previous default status
 
 The objective is to build a model that estimates the **Probability of Default (PD)** for a borrower.
 The estimated PD can then be used to calculate the **Expected Loss (EL)** on a loan.
@@ -170,15 +158,6 @@ The objective is to find bucket boundaries that maximize the total log-likelihoo
 #### 3. Dynamic Programming
 
 Dynamic Programming was used to efficiently search for the optimal bucket boundaries.
-
-The algorithm:
-
-1. Considers possible FICO score splits.
-2. Calculates the log-likelihood for each possible bucket.
-3. Stores the best solution for each number of buckets.
-4. Records the optimal split positions.
-5. Backtracks through the stored split positions to recover the optimal FICO boundaries.
-
 This approach avoids manually selecting arbitrary FICO ranges.
 
 #### 4. Rating Assignment
@@ -220,7 +199,6 @@ Some buckets may contain relatively few borrowers. For example, a bucket with on
 - Pandas
 - NumPy
 - Scikit-learn
-- Jupyter Notebook
 - Dynamic Programming
 - Logistic Regression
 - Statistical Analysis
