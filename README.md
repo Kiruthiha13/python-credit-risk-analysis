@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project was completed as part of the **JPMorgan Chase Quantitative Research Job Simulation** on Forage.
+
 This project focuses on credit risk analysis using borrower-level loan data. The objective is to develop techniques for estimating the **Probability of Default (PD)** and to transform numerical FICO scores into categorical credit ratings that can be used in machine learning models.
 
 The project consists of two tasks:
@@ -228,7 +229,7 @@ Some buckets may contain relatively few borrowers. For example, a bucket with on
 
 ---
 
-# Project Structure
+# Repository Structure
 
 ```text
 credit-risk-analysis/
