@@ -210,7 +210,6 @@ This allows the relationship between FICO-based ratings and default risk to be a
 ## Key Observation
 
 Most ratings show a clear relationship between credit quality and default risk, with lower-quality ratings generally having higher observed PD.
-
 Some buckets may contain relatively few borrowers. For example, a bucket with only a small number of observations can have a volatile observed PD. Such results should therefore be interpreted with caution.
 
 ---
@@ -231,15 +230,13 @@ Some buckets may contain relatively few borrowers. For example, a bucket with on
 # Project Structure
 
 ```text
-Credit-Risk-Analysis/
-│
-├── Task_1_PD_Model/
-│   └── PD_Model_and_Expected_Loss.ipynb
-│
-├── Task_2_FICO_Bucketing/
-│   └── FICO_Score_Bucketing_and_PD_Analysis.ipynb
+credit-risk-analysis/
 │
 ├── data/
-│   └── loan_data_created.csv
 │
+├── scripts/
+│   ├── credit_risk_analysis.ipynb
+│   └── FICO_score_bucketing_and_PD_analysis.ipynb
+│
+├── LICENSE
 └── README.md
