@@ -9,9 +9,9 @@ The project consists of two tasks:
 - **Task 1:** Build a Probability of Default (PD) model and calculate Expected Loss.
 - **Task 2:** Quantize FICO scores into categorical ratings using Dynamic Programming and Log-Likelihood optimization.
 
-# Task 1 – Probability of Default & Expected Loss
+## Task 1 – Probability of Default & Expected Loss
 
-## Objective
+### Objective
 
 The risk manager provides historical borrower data containing information such as:
 
@@ -109,9 +109,9 @@ The Logistic Regression model was evaluated using:
 
 ROC-AUC measures the model's ability to distinguish between borrowers who default and those who do not.
 
-# Task 2 – FICO Score Bucketing and PD Analysis
+## Task 2 – FICO Score Bucketing and PD Analysis
 
-## Objective
+### Objective
 
 FICO scores are numerical values ranging from approximately 300 to 850. However, the target machine learning architecture requires **categorical input variables**.
 
