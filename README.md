@@ -1,7 +1,6 @@
 # Credit Risk Analysis – Probability of Default & FICO Score Bucketing
 
-## Project Overview
-This project focuses on credit risk analysis using borrower-level loan data. The objective is to develop techniques for estimating the **Probability of Default (PD)** and to transform numerical FICO scores into categorical credit ratings that can be used in machine learning models.
+
 
 The project consists of two tasks:
 
