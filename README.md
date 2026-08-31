@@ -117,7 +117,6 @@ For each FICO score, the following were calculated:
 - Number of defaults
 
 The dataset contains 10,000 borrower records and 374 unique FICO scores.
-
 Aggregating by unique FICO scores significantly reduces the computational complexity of the optimization.
 
 #### 2. Log-Likelihood Optimization
