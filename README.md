@@ -24,15 +24,11 @@ Two financial ratios were created:
 
 **Debt-to-Income Ratio (DTI)**
 
-\[
-DTI = \frac{Total\ Debt\ Outstanding}{Income}
-\]
+DTI = {Total Debt Outstanding}/{Income}
 
 **Payment-to-Income Ratio (PTI)**
 
-\[
-PTI = \frac{Loan\ Amount\ Outstanding}{Income}
-\]
+PTI = {Loan Amount Outstanding}/{Income}
 
 These ratios provide additional information about the borrower's debt burden relative to their income.
 
@@ -59,15 +55,14 @@ The model outputs a probability between 0 and 1, representing the estimated **Pr
 
 Expected Loss was calculated using:
 
-\[
-Expected\ Loss = PD \times LGD \times Exposure
-\]
+Expected Loss = PD * LGD * EAD
+
 
 where:
 
 - **PD** = Probability of Default
 - **LGD** = Loss Given Default
-- **Exposure** = Loan amount outstanding
+- **Exposure** = Exposure at Default
 
 The recovery rate is assumed to be **10%**.
 
