@@ -124,23 +124,16 @@ Aggregating by unique FICO scores significantly reduces the computational comple
 
 For each potential FICO bucket, the Probability of Default is calculated as:
 
-\[
-p_i = \frac{k_i}{n_i}
-\]
+p_i = k_i/n_i
 
 where:
 
-- \(n_i\) = number of borrowers in the bucket
-- \(k_i\) = number of defaults in the bucket
+- n_i = number of borrowers in the bucket
+- k_i = number of defaults in the bucket
 
 The log-likelihood for a bucket is:
 
-\[
-LL_i =
-k_i\log(p_i)
-+
-(n_i-k_i)\log(1-p_i)
-\]
+LL_i = k_i log(p_i) + (n_i-k_i)log(1-p_i)
 
 The objective is to find bucket boundaries that maximize the total log-likelihood.
 
