@@ -133,7 +133,7 @@ where:
 
 The log-likelihood for a bucket is:
 
-LL_i = k_i log(p_i) + (n_i-k_i)log(1-p_i)
+LL_i = k_i log(p_i) + (n_i-k_i) log(1-p_i)
 
 The objective is to find bucket boundaries that maximize the total log-likelihood.
 
