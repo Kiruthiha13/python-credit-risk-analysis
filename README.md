@@ -68,19 +68,13 @@ The recovery rate is assumed to be **10%**.
 
 Therefore:
 
-\[
-LGD = 1 - Recovery\ Rate
-\]
+LGD = 1 - Recovery Rate
 
-\[
 LGD = 1 - 0.10 = 0.90
-\]
 
 So:
 
-\[
-Expected\ Loss = PD \times 0.90 \times Loan\ Amount
-\]
+Expected Loss = PD * 0.90 * Loan Amount
 
 The model includes a function that takes borrower/loan characteristics as inputs and returns the estimated PD and Expected Loss.
 
